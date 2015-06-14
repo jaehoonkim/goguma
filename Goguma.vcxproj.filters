@@ -24,12 +24,12 @@
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
     <Filter Include="Generated Files\Debug">
-      <UniqueIdentifier>{81725596-d0ff-4a7d-aaff-52fd503fd0e0}</UniqueIdentifier>
+      <UniqueIdentifier>{01f84e79-a469-4173-934e-b5c25cc97399}</UniqueIdentifier>
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
     <Filter Include="Generated Files\Release">
-      <UniqueIdentifier>{4a3fe634-8201-4978-b2bd-62a330321d74}</UniqueIdentifier>
+      <UniqueIdentifier>{9bc35d91-6219-460e-b058-46a08503fe0e}</UniqueIdentifier>
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
@@ -61,9 +61,11 @@
     <CustomBuild Include="goguma.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="GeneratedFiles\ui_goguma.h">
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_goguma.h">
       <Filter>Generated Files</Filter>
-    </CustomBuild>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Goguma.rc" />
